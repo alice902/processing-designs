@@ -27,7 +27,7 @@ void setup()
   //beginRecord(SVG,"output/" + timestamp() + "output.svg");
   agents = new Agent[3000];
   for(int i = 0; i < agents.length; i++)
-    agents[i] = new Agent(1000, 30, -50, 50, 1, 15);                  //arg scale, strength, min speed, max speed, min size, max size
+    agents[i] = new Agent(1000, 300, -50, 50, 1, 50);
 }
 
 void draw()
